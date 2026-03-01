@@ -2,8 +2,11 @@
 crash.log
 
 **/.terraform/
-**/.tfstate
-**/.tfstate.*
+# Ignore all .tfstate files at any level
+*.tfstate
+*.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
 **/.terraform.lock.hcl
 # Sensitive variable files
 *.tfvars

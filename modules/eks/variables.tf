@@ -105,6 +105,12 @@ variable "coredns_addon_version" {
   default     = null
 }
 
+variable "ebs_csi_driver_addon_version" {
+  description = "Version of the ebs-csi-driver EKS add-on"
+  type        = string
+  default     = null
+}
+
 variable "kube_proxy_addon_version" {
   description = "Version of the kube-proxy EKS add-on"
   type        = string
